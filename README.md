@@ -82,19 +82,18 @@ git clone https://github.com/Gideon-Kipngeno/national-library-db.git
 2. Run the Schema Script
 
 In your MySQL client or CLI:
-- sql
+
 ```bash
 national_library_schema.sql;
 ```
 3. Run the data population script to Populate Sample Data:
 
-- samples 
 ```bash
 Insert_data.sql;
 ```
 4. Run to Verify with sample queries.
 
--- Execute queries
+ Execute queries
 ```bash
  sample_queries.sql;
  ```
@@ -122,10 +121,14 @@ WHERE S.name = 'Alice Williams';
 ```
 ---
 
- Author
+## _Author_
+
 Gideon Kipngeno
+
 Software Development Cohort VIII
+
 PLP Academy — July-September 2025
 
- ***Acknowledgments***
+## ***Acknowledgments***
+
 Special thanks to PLP Academy instructors and peers for their guidance and support throughout the course.
